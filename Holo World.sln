@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holo World", "Holo World.csproj", "{DBC64CFC-A2D1-41F1-8C3D-0F9880DBCFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holo World.Editor", "Holo World.Editor.csproj", "{A154F8A8-5008-B52D-F3E7-80C88D3C6C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC64CFC-A2D1-41F1-8C3D-0F9880DBCFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC64CFC-A2D1-41F1-8C3D-0F9880DBCFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC64CFC-A2D1-41F1-8C3D-0F9880DBCFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC64CFC-A2D1-41F1-8C3D-0F9880DBCFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A154F8A8-5008-B52D-F3E7-80C88D3C6C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A154F8A8-5008-B52D-F3E7-80C88D3C6C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A154F8A8-5008-B52D-F3E7-80C88D3C6C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A154F8A8-5008-B52D-F3E7-80C88D3C6C12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
