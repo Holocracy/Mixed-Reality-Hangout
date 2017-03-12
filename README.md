@@ -1,5 +1,32 @@
 # HoloWorld!
 Chat with new friends over mixed reality.
 
+## Guidelines
+
+### Editor Version
+Use 5.5.2f1 to open the project
+
+### License
+All code herein is considered open source.
+
+### Contributors
+We welcome anyone that would like to become a contributor.
+
+### Development Procees
+The project uses a simplified git flow process. http://nvie.com/posts/a-successful-git-branching-model/
+
+Contribution flow:
+- Branch off master
+- Implement your changes
+- Create a PR (that details fully what was changed)
+- Assign a team member to review the changes
+- Respond to feedback, if any.
+
+### Guidelines
+
+- Prefer small PRs to be as small as possible.
+- Each PR is dedicated to a single issue.
+- Be kind! We're all here to learn and have fun.
+
 ### Join Us on Slack!
 https://holodevelopersslack.azurewebsites.net/
