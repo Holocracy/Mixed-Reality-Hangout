@@ -3,8 +3,9 @@ Chat with new friends over mixed reality.
 
 ## Guidelines
 
-### Editor Version
-Use 5.5.2f1 to open the project
+### Tools
+Unity - Use 5.5.2f1 to open the project  
+Microsoft's HoloToolKit (HTK) - https://github.com/Microsoft/HoloToolkit-Unity
 
 ### License
 All code herein is considered open source.
