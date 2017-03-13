@@ -1,14 +1,15 @@
 # HoloWorld!
 Chat with new friends over mixed reality.
 
-## Guidelines
+## Project Information
 
 ### Tools
 Unity - Use 5.5.2f1 to open the project  
 Microsoft's HoloToolKit (HTK) - https://github.com/Microsoft/HoloToolkit-Unity
 
 ### License
-All code herein is considered open source.
+All code herein is considered open source.  
+A copy of the license can be seen here: https://github.com/Holocracy/HoloWorld/blob/master/LICENSE
 
 ### Contributors
 We welcome anyone that would like to become a contributor.
