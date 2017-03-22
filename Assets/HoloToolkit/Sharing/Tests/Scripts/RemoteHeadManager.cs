@@ -152,12 +152,10 @@ namespace HoloToolkit.Sharing.Tests
         private GameObject CreateRemoteHead()
         {
             
-        //GameObject newHeadObj = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        //UnityEngine.Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Cowboy/Prefabs/Cowboy.prefab", typeof(GameObject));
-        GameObject newHeadObj = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
+        
+            GameObject newHeadObj = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
             newHeadObj.transform.parent = gameObject.transform;
-            newHeadObj.transform.localScale = Vector3.one * 0.6f;
-            //newHeadObj.transform.Translate(0,-0.0f,0);
+            newHeadObj.transform.localScale = Vector3.one * 0.8f;
             return newHeadObj;
         }
 
