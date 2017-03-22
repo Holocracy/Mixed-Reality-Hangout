@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using HoloToolkit.Unity;
-using UnityEditor;
+//using UnityEditor;
 
 namespace HoloToolkit.Sharing.Tests
 {
@@ -16,10 +16,13 @@ namespace HoloToolkit.Sharing.Tests
     /// </summary>
     public class RemoteHeadManager : Singleton<RemoteHeadManager>
     {
+        public GameObject prefab;
+
         public class RemoteHeadInfo
         {
             public long UserID;
             public GameObject HeadObject;
+            
         }
 
         /// <summary>
@@ -148,9 +151,10 @@ namespace HoloToolkit.Sharing.Tests
         /// <returns></returns>
         private GameObject CreateRemoteHead()
         {
-            //GameObject newHeadObj = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            UnityEngine.Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Cowboy/Prefabs/Cowboy.prefab", typeof(GameObject));
-            GameObject newHeadObj = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
+            
+        //GameObject newHeadObj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        //UnityEngine.Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Cowboy/Prefabs/Cowboy.prefab", typeof(GameObject));
+        GameObject newHeadObj = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
             newHeadObj.transform.parent = gameObject.transform;
             newHeadObj.transform.localScale = Vector3.one * 0.6f;
             //newHeadObj.transform.Translate(0,-0.0f,0);
