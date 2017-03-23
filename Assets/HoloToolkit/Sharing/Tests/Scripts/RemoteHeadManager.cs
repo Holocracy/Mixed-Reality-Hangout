@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using HoloToolkit.Unity;
+//using UnityEditor;
 
 namespace HoloToolkit.Sharing.Tests
 {
@@ -15,10 +16,13 @@ namespace HoloToolkit.Sharing.Tests
     /// </summary>
     public class RemoteHeadManager : Singleton<RemoteHeadManager>
     {
+        public GameObject prefab;
+
         public class RemoteHeadInfo
         {
             public long UserID;
             public GameObject HeadObject;
+            
         }
 
         /// <summary>
@@ -137,7 +141,7 @@ namespace HoloToolkit.Sharing.Tests
             Quaternion headRot = CustomMessages.Instance.ReadQuaternion(msg);
 
             RemoteHeadInfo headInfo = GetRemoteHeadInfo(userID);
-            headInfo.HeadObject.transform.localPosition = headPos;
+            headInfo.HeadObject.transform.localPosition = headPos += new Vector3(0,-1.0f,0);
             headInfo.HeadObject.transform.localRotation = headRot;
         }
 
@@ -147,9 +151,11 @@ namespace HoloToolkit.Sharing.Tests
         /// <returns></returns>
         private GameObject CreateRemoteHead()
         {
-            GameObject newHeadObj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            
+        
+            GameObject newHeadObj = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
             newHeadObj.transform.parent = gameObject.transform;
-            newHeadObj.transform.localScale = Vector3.one * 0.2f;
+            newHeadObj.transform.localScale = Vector3.one * 0.8f;
             return newHeadObj;
         }
 
