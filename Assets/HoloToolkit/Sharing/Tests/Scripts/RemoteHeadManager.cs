@@ -141,7 +141,7 @@ namespace HoloToolkit.Sharing.Tests
             Quaternion headRot = CustomMessages.Instance.ReadQuaternion(msg);
 
             RemoteHeadInfo headInfo = GetRemoteHeadInfo(userID);
-            headInfo.HeadObject.transform.localPosition = headPos += new Vector3(0,-1.0f,0);
+            headInfo.HeadObject.transform.localPosition = headPos; // += new Vector3(0,0,0); Leaving these here so we can easily modify in future builds
             headInfo.HeadObject.transform.localRotation = headRot;
         }
 
@@ -155,7 +155,7 @@ namespace HoloToolkit.Sharing.Tests
         
             GameObject newHeadObj = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
             newHeadObj.transform.parent = gameObject.transform;
-            newHeadObj.transform.localScale = Vector3.one * 0.8f;
+            newHeadObj.transform.localScale = Vector3.one * 1.0f; //change the 1.0f value for scaling avatars up and down
             return newHeadObj;
         }
 
