@@ -1,0 +1,4 @@
+C:\Users\Jason Evans\Documents\GitHub\HoloWorld\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Jason Evans\Documents\GitHub\HoloWorld\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Jason Evans\Documents\GitHub\HoloWorld\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Jason Evans\Documents\GitHub\HoloWorld\App\Mixed Reality Hangout\Mixed Reality Hangout.csproj;x86
