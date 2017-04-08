@@ -1,4 +1,4 @@
-# HoloWorld!
+# Mixed Reality Hangout!
 Chat with new friends over mixed reality.
 
 ## Project Information
