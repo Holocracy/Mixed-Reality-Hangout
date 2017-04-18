@@ -4,7 +4,7 @@ Chat with new friends over mixed reality.
 ## Project Information
 
 ### Tools
-Unity - Use 5.5.2f1 to open the project  
+Unity - Use 5.5.2f1 to open the project - https://unity3d.com/get-unity/download/archive 
 Microsoft's HoloToolKit (HTK) - https://github.com/Microsoft/HoloToolkit-Unity
 
 ### License
