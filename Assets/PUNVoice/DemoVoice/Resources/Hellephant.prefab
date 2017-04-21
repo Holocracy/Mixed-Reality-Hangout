@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 11418116}
   - component: {fileID: 11452410}
   - component: {fileID: 11493356}
+  - component: {fileID: 114021130976475958}
   m_Layer: 0
   m_Name: Hellephant
   m_TagString: Player
@@ -346,7 +347,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
@@ -1079,3 +1080,14 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 153412}
   m_IsPrefabParent: 1
+--- !u!114 &114021130976475958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6087ed5d7e3d7ce46bc01c9588b6e777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

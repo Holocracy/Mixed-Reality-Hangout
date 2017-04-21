@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45075577, g: 0.5006967, b: 0.5748016, a: 1}
+  m_IndirectSpecularColor: {r: 0.45075577, g: 0.5006969, b: 0.5748016, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4745,6 +4745,10 @@ Prefab:
       propertyPath: SessionName
       value: Meeting
       objectReference: {fileID: 0}
+    - target: {fileID: 163528, guid: 8aaf37823b26ee449bb3b3d7775965c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aaf37823b26ee449bb3b3d7775965c3, type: 2}
   m_IsPrefabParent: 0
@@ -5370,8 +5374,10 @@ MonoBehaviour:
   SpawnPosition: {fileID: 685058485}
   PositionOffset: 2
   PrefabsToInstantiate:
-  - {fileID: 100000, guid: ea3c2728ef33e3a4d99527a86cda6465, type: 2}
-  - {fileID: 100002, guid: e5171f72421770240bd7c3989fe351e3, type: 2}
+  - {fileID: 153412, guid: 548c56f4bcf4db24b8aa057e9846a005, type: 2}
+  - {fileID: 100006, guid: 4e5a0d387dc27394b81600988ad0216f, type: 2}
+  - {fileID: 153412, guid: 548c56f4bcf4db24b8aa057e9846a005, type: 2}
+  - {fileID: 100006, guid: 4e5a0d387dc27394b81600988ad0216f, type: 2}
 --- !u!114 &1979019748
 MonoBehaviour:
   m_ObjectHideFlags: 0
