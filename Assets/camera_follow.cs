@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class camera_follow : MonoBehaviour {
+public class camera_follow : Photon.MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class camera_follow : MonoBehaviour {
 
      
 
-        if (PhotonView.isMine)
+        if (photonView.isMine)
         {
             this.transform.position = Camera.main.transform.position;
             this.transform.rotation = Camera.main.transform.rotation;

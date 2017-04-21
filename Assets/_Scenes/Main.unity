@@ -4745,6 +4745,10 @@ Prefab:
       propertyPath: SessionName
       value: Meeting
       objectReference: {fileID: 0}
+    - target: {fileID: 163528, guid: 8aaf37823b26ee449bb3b3d7775965c3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aaf37823b26ee449bb3b3d7775965c3, type: 2}
   m_IsPrefabParent: 0
@@ -5370,6 +5374,8 @@ MonoBehaviour:
   SpawnPosition: {fileID: 685058485}
   PositionOffset: 2
   PrefabsToInstantiate:
+  - {fileID: 153412, guid: 548c56f4bcf4db24b8aa057e9846a005, type: 2}
+  - {fileID: 100006, guid: 4e5a0d387dc27394b81600988ad0216f, type: 2}
   - {fileID: 153412, guid: 548c56f4bcf4db24b8aa057e9846a005, type: 2}
   - {fileID: 100006, guid: 4e5a0d387dc27394b81600988ad0216f, type: 2}
 --- !u!114 &1979019748
