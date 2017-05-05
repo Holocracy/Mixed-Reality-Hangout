@@ -500,7 +500,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     UNet: 1
-  cloudProjectId: b7553026-da8e-447d-8ddf-b2ce2c4353de
-  projectName: HoloWorld
-  organizationId: mr0ng
+  cloudProjectId: d1bc2588-67b5-4a39-b32d-7ccd73a963d8
+  projectName: Mixed Reality Hangout (1)
+  organizationId: jason-evans-4346740
   cloudEnabled: 0
