@@ -1,5 +1,5 @@
 # Mixed Reality Hangout!
-Chat with new friends over mixed reality.
+Chat with new friends over mixed reality.  A scalable application template avaialble as a starting point for new Mixed Reality HoloLens applications.
 
 ## Project Information
 
