@@ -5424,7 +5424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPosition: {fileID: 685058485}
-  PositionOffset: 2
+  PositionOffset: 1
   PrefabsToInstantiate:
   - {fileID: 1560058532197780, guid: c2a9f43a7f17926478e63b25cf56e6de, type: 2}
   - {fileID: 1560058532197780, guid: c2a9f43a7f17926478e63b25cf56e6de, type: 2}
