@@ -29,7 +29,7 @@ public class PhotonVoiceSettings : MonoBehaviour
     public int Bitrate = 30000;               // set in inspector
 
     /// Enable voice detection (applied per every recoder instance).
-    public bool VoiceDetection = false;                 // set in inspector
+    public bool VoiceDetection = true;                 // set in inspector
 
     /// Voice detection threshold (applied per every recoder instance).
     public float VoiceDetectionThreshold = 0.01f;       // set in inspector

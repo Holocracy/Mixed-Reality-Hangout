@@ -1953,8 +1953,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HostTransform: {fileID: 0}
   DistanceScale: 2
-  IsKeepUpright: 0
-  IsOrientTowardsUser: 1
+  IsKeepUpright: 1
+  IsOrientTowardsUser: 0
   IsDraggingEnabled: 1
 --- !u!1 &696974652
 GameObject:
