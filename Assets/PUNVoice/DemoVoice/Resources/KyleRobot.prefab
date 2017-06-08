@@ -410,6 +410,9 @@ GameObject:
   - component: {fileID: 54592415422520612}
   - component: {fileID: 65687272769953116}
   - component: {fileID: 114765014686530288}
+  - component: {fileID: 114413557186310844}
+  - component: {fileID: 114255120684835638}
+  - component: {fileID: 114115354998041458}
   m_Layer: 0
   m_Name: KyleRobot
   m_TagString: Player
@@ -1710,7 +1713,7 @@ BoxCollider:
   m_GameObject: {fileID: 1560058532197780}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8731036, z: 1}
   m_Center: {x: 0, y: 0.55484843, z: 0}
@@ -1861,6 +1864,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6087ed5d7e3d7ce46bc01c9588b6e777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114115354998041458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560058532197780}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df83d9cfe88c7641b20a46c5228418c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ControllerCamera: {fileID: 0}
+  speed: 5
+  cameraDistance: 0
+  movingTurnSpeed: 180
+  smoothing: 5
+--- !u!114 &114255120684835638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560058532197780}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae58c0b74b23bf64e856c46783d1f181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ControllerCamera: {fileID: 20954082860572972}
+  speed: 5
+  cameraDistance: -1
+  movingTurnSpeed: 180
 --- !u!114 &114268399813670376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1982,6 +2016,28 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 100
+--- !u!114 &114413557186310844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560058532197780}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf6d7f07293ceb45bb4121e509661d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ControllerCamera: {fileID: 20314507973203978}
+  speed: 8
+  cameraDistance: 1
+  mouseLook:
+    XSensitivity: 2
+    YSensitivity: 2
+    clampVerticalRotation: 1
+    MinimumX: -90
+    MaximumX: 90
+    smooth: 0
+    smoothTime: 5
 --- !u!114 &114436066606797416
 MonoBehaviour:
   m_ObjectHideFlags: 1
