@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a471ed9798de2764e935b025ef2e38f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextSceneName: Menu
+  NextSceneName: SpatialMapping
 --- !u!4 &1952827301
 Transform:
   m_ObjectHideFlags: 0
