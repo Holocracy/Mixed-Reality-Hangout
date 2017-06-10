@@ -70,9 +70,9 @@ Move around and scan in your playspace";
                     case SpatialUnderstanding.ScanStates.Finishing:
                         return "Finalizing scan (please wait)";
                     case SpatialUnderstanding.ScanStates.Done:
-                        return "Scan complete - Now go back to work!";
+                        return "Scan complete - Now go talk with people!";
                     default:
-                        return @"I'm working, 
+                        return @"I'm on my way, 
 ScanState = " + SpatialUnderstanding.Instance.ScanState.ToString();
                 }
             }
