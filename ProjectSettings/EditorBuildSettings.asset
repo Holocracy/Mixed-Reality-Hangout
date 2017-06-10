@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/HeadsetAdjustment.unity
   - enabled: 1
+    path: Assets/_Scenes/SpatialMapping.unity
+  - enabled: 1
     path: Assets/_Scenes/Menu.unity
   - enabled: 1
     path: Assets/_Scenes/Join.unity
