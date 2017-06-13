@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/Join.unity
   - enabled: 1
     path: Assets/_Scenes/About.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Settings.unity
   - enabled: 0
     path: Assets/HoloToolkit/Sharing/Tests/Scenes/SharingTest.unity
