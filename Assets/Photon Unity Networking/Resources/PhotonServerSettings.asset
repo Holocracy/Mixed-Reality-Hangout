@@ -17,7 +17,7 @@ MonoBehaviour:
   ServerPort: 5055
   VoiceServerPort: 5055
   AppID: 6757e248-a90e-4566-8e8e-a2e59bd26be3
-  VoiceAppID: 6757e248-a90e-4566-8e8e-a2e59bd26be3
+  VoiceAppID: 77c57127-6dde-4055-94fa-9e2350678d01
   PreferredRegion: 0
   EnabledRegions: -1
   JoinLobby: 0

@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 114413557186310844}
   - component: {fileID: 114255120684835638}
   - component: {fileID: 114115354998041458}
+  - component: {fileID: 114229200543538614}
   m_Layer: 0
   m_Name: KyleRobot
   m_TagString: Player
@@ -1713,7 +1714,7 @@ BoxCollider:
   m_GameObject: {fileID: 1560058532197780}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 0.8731036, z: 1}
   m_Center: {x: 0, y: 0.55484843, z: 0}
@@ -1751,9 +1752,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 501.08
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1767,14 +1768,14 @@ AudioSource:
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
-      time: 1
+      time: 0.8501292
       value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1864,6 +1865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6087ed5d7e3d7ce46bc01c9588b6e777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floorGrid: {fileID: 0}
 --- !u!114 &114115354998041458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1880,6 +1882,19 @@ MonoBehaviour:
   cameraDistance: 0
   movingTurnSpeed: 180
   smoothing: 5
+--- !u!114 &114229200543538614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560058532197780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f5c9961b33871d42ae4604998ac313c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: 1
+  customIdentifier: Avatar
 --- !u!114 &114255120684835638
 MonoBehaviour:
   m_ObjectHideFlags: 1
